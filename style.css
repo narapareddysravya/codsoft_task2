@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 2em;
+    text-align: center;
+}
+section#about-me,section#skills,section#projects,section#resume,section#contact{
+    background-color: #f4f4f4;
+    margin: 1em 0;
+}
+.container {
+    display: flex;
+  }
+  .about-me {
+    display: flex;
+    align-items: center;
+  }
+  #about-me h1 {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 70px;
+    color: #7600bc;
+  }
+  #about-me p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+.profile_image {
+    width: 150px;
+    height: fit-content;
+    vertical-align: left;
+    margin: 50px;
+    border-radius: 10px;
+  }
+  #skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+#skills-list li {
+    font-size: 20px;
+    margin: 5px 0;
+    color:black;
+}
+.project,.skill,.contact{
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact p {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px 0; 
+    line-height: 1.6; 
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
